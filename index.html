@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap" rel="stylesheet">
+    <title>Card</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>🏥Centro Clínico Saúde</h1>
+        <h3>Faça o registro de suas consultas conosco</h3>
+        <button class="addModal">Registrar consulta</button>
+    </header>
+
+    <div class="modalContainer">
+        <div class="modal">
+            <button class="closeButton">X</button>
+            <h2>Insira suas informações:</h2>
+            <form action="" id="modalForm">
+                <label for="name">Nome do(a) Paciente:</label>
+                <input type="text" id="name" name="name" placeholder="Nome do(a) Paciente" required>
+
+                <label for="doctorName">Nome do(a) Médico(a):</label>
+                <input type="text" id="doctorName" name="doctorName" placeholder="Nome do(a) Médico(a)" required>
+
+                <label for="doctor">Especialidade Médica:</label>
+                <input type="text" name="doctor" id="doctor" placeholder="Especialidade Médica" required>
+
+                <label for="dateForm">Data da consulta:</label>
+                <input type="date" id="dateForm" name="dateForm" placeholder="Data" required>
+
+                <label for="hourForm">Hora da consulta:</label>
+                <input type="time" id="hourForm" name="hourForm" placeholder="Hora" required>
+
+                <span>
+                    <button class="modalButtonCancel">Cancelar</button>
+                    <button class="modalButtonSend">Enviar</button>
+                </span>
+            </form>
+        </div>
+    </div>
+    <div>
+        <h2>Seus registros:</h2>
+    </div>
+    <main id="mainCard">
+
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
