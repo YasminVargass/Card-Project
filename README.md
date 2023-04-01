@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Medical Card é um app para registrar consultas médicas online.
 
-- [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks](https://yasminvargass.github.io/Medical-Card-Project)
+- [Acesse o projeto finalizado, online](https://yasminvargass.github.io/Medical-Card-Project)
 
 
 ## 🔖 Layout
