@@ -4,7 +4,7 @@ const modalContainer = document.querySelector(".modalContainer");
 const mainCard = document.querySelector("#mainCard");
 const form = document.querySelector("#modalForm");
 const modalButtonSend = document.querySelector(".modalButtonSend");
-const modalButtonCancel = document.querySelector(".close");
+const modalButtonCancel = document.querySelector(".modalButtonCancel");
 const closeB = document.querySelector(".closeButton");
 
 let save = [];
