@@ -19,7 +19,8 @@ function modalEvents() {
     openModal();
   });
 
-  modalButtonSend.addEventListener("click", function (evt) {   if (
+  modalButtonSend.addEventListener("click", function (evt) {  
+    if (
       nameInput.value === "" ||
       docName.value === "" ||
       doctor.value === "" ||
