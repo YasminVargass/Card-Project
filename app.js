@@ -19,18 +19,17 @@ function modalEvents() {
     openModal();
   });
 
-  modalButtonSend.addEventListener("click", function (evt) {  
-    if (
-      nameInput.value === "" ||
-      docName.value === "" ||
-      doctor.value === "" ||
-      dateForm.value === "" ||
-      hourForm.value === ""
-    ) {
+modalButtonSend.addEventListener("click", function (evt) {
+    if (form.checkValidity()) {
+      addCard();
+      closeModal();
+    } else {
       alert("Por favor, preencha todos os campos obrigatórios.");
-      return;
     }
-    addCard();
+  });
+
+  modalButtonCancel.addEventListener("click", (event) => {
+    console.log("tst");
     closeModal();
   });
 
