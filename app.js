@@ -28,13 +28,11 @@ modalButtonSend.addEventListener("click", function (evt) {
     }
   });
 
-  modalButtonCancel.addEventListener("click", (event) => {
-    console.log("tst");
+  closeB.addEventListener("click", (event) => {
     closeModal();
   });
 
   modalButtonCancel.addEventListener("click", (event) => {
-    console.log("test");
     closeModal();
   });
 }
