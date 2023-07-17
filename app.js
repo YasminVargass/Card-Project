@@ -19,7 +19,16 @@ function modalEvents() {
     openModal();
   });
 
-  modalButtonSend.addEventListener("click", function (evt) {
+  modalButtonSend.addEventListener("click", function (evt) {   if (
+      nameInput.value === "" ||
+      docName.value === "" ||
+      doctor.value === "" ||
+      dateForm.value === "" ||
+      hourForm.value === ""
+    ) {
+      alert("Por favor, preencha todos os campos obrigatórios.");
+      return;
+    }
     addCard();
     closeModal();
   });
